@@ -13,10 +13,11 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@color/greenWa"
+        android:elevation="12dp"
         app:tabIndicatorColor="@color/lightGrey"
         app:tabSelectedTextColor="@color/white"
-        app:tabTextColor="@color/lightGrey"
 
+        app:tabTextColor="@color/lightGrey"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <androidx.viewpager.widget.ViewPager
